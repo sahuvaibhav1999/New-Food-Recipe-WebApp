@@ -10,9 +10,77 @@
 }
 
 .Thumb{
-  width: 100%;
+  margin-top:10px;
+  width: 80%;
+  display: block;
   height: auto;
   border-radius: 50%;
   margin-left: auto ;
   margin-right: auto;
+}
+
+.if{
+  width: 70%;
+  
+}
+
+.hstr{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.but{
+  float: right;
+  width:80px;
+  margin: 15px;
+  margin-right: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+.sub-main{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: whitesmoke;
+}
+
+p{
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#ins{
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+
+#ing{
+  margin-left: 10px;
+}
+
+.video{
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+
+iframe{
+  margin: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.h5ing{
+  margin-bottom: 15px;
+}
+
+.h5ins{
+  margin-bottom: 15px;
+}
+
+.pC{
+  margin-top: 20px;
 }

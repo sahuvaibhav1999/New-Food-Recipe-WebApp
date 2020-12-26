@@ -1,7 +1,7 @@
 import React from "react";
 
 const Header = (props) => {
-    const { search, onInputChange} = props;
+    const { search, onInputChange, getRecipes} = props;
     return (
         <div className="jumbtron">
             <h1 className="display-1"><span class="material-icons brand-icon">
@@ -12,7 +12,7 @@ menu_book
   <input type="text" class="form-control" placeholder="Search Your Recipe..." value = {search}
   onChange = {onInputChange}
   />
-  <button className="btn btn-dark">Search Recipe</button>
+  <button className="btn btn-dark" onClick={getRecipes}>Search Recipe</button>
     </div>
         </h1>
         </div>
